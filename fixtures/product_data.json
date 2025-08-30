@@ -1,0 +1,227 @@
+[
+  {
+    "model": "product.category",
+    "pk": 1,
+    "fields": {
+      "name": "Men"
+    }
+  },
+  {
+    "model": "product.category",
+    "pk": 2,
+    "fields": {
+      "name": "Women"
+    }
+  },
+  {
+    "model": "product.category",
+    "pk": 3,
+    "fields": {
+      "name": "Kids"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 1,
+    "fields": {
+      "name": "Men's T-Shirt",
+      "description": "Comfortable cotton T-Shirt for men.",
+      "price": "19.99",
+      "category": 1,
+      "image": "products/mens_tshirt.jpg",
+      "size": "M",
+      "color": "Red",
+      "stock": 50,
+      "popularity": 10,
+      "created_at": "2024-04-20T10:00:00Z",
+      "updated_at": "2024-04-20T10:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 2,
+    "fields": {
+      "name": "Women's Dress",
+      "description": "Elegant summer dress.",
+      "price": "49.99",
+      "category": 2,
+      "image": "products/womens_dress.jpg",
+      "size": "L",
+      "color": "Blue",
+      "stock": 30,
+      "popularity": 20,
+      "created_at": "2024-04-19T09:30:00Z",
+      "updated_at": "2024-04-19T09:30:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 3,
+    "fields": {
+      "name": "Kids' Sneakers",
+      "description": "Bright and comfortable sneakers for kids.",
+      "price": "29.99",
+      "category": 3,
+      "image": "products/kids_sneakers.jpg",
+      "size": "S",
+      "color": "Green",
+      "stock": 40,
+      "popularity": 15,
+      "created_at": "2024-04-18T08:45:00Z",
+      "updated_at": "2024-04-18T08:45:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 4,
+    "fields": {
+      "name": "Men's Jeans",
+      "description": "Stylish denim jeans.",
+      "price": "39.99",
+      "category": 1,
+      "image": "products/mens_jeans.jpg",
+      "size": "L",
+      "color": "Blue",
+      "stock": 25,
+      "popularity": 12,
+      "created_at": "2024-04-17T11:15:00Z",
+      "updated_at": "2024-04-17T11:15:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 5,
+    "fields": {
+      "name": "Women's Blouse",
+      "description": "Casual chic blouse.",
+      "price": "24.99",
+      "category": 2,
+      "image": "products/womens_blouse.jpg",
+      "size": "M",
+      "color": "Green",
+      "stock": 35,
+      "popularity": 8,
+      "created_at": "2024-04-16T14:00:00Z",
+      "updated_at": "2024-04-16T14:00:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 6,
+    "fields": {
+      "name": "Kids' T-Shirt",
+      "description": "Cute T-Shirt for kids.",
+      "price": "14.99",
+      "category": 3,
+      "image": "products/kids_tshirt.jpg",
+      "size": "S",
+      "color": "Red",
+      "stock": 60,
+      "popularity": 18,
+      "created_at": "2024-04-15T12:30:00Z",
+      "updated_at": "2024-04-15T12:30:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 7,
+    "fields": {
+      "name": "Men's Jacket",
+      "description": "Warm winter jacket.",
+      "price": "89.99",
+      "category": 1,
+      "image": "products/mens_jacket.jpg",
+      "size": "L",
+      "color": "Green",
+      "stock": 20,
+      "popularity": 22,
+      "created_at": "2024-04-14T16:45:00Z",
+      "updated_at": "2024-04-14T16:45:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 8,
+    "fields": {
+      "name": "Women's Skirt",
+      "description": "Elegant knee-length skirt.",
+      "price": "34.99",
+      "category": 2,
+      "image": "products/womens_skirt.jpg",
+      "size": "M",
+      "color": "Blue",
+      "stock": 27,
+      "popularity": 11,
+      "created_at": "2024-04-13T13:20:00Z",
+      "updated_at": "2024-04-13T13:20:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 9,
+    "fields": {
+      "name": "Kids' Shorts",
+      "description": "Comfortable shorts for kids.",
+      "price": "9.99",
+      "category": 3,
+      "image": "products/kids_shorts.jpg",
+      "size": "S",
+      "color": "Green",
+      "stock": 55,
+      "popularity": 14,
+      "created_at": "2024-04-12T10:10:00Z",
+      "updated_at": "2024-04-12T10:10:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 10,
+    "fields": {
+      "name": "Men's Sneakers",
+      "description": "Stylish sneakers for men.",
+      "price": "59.99",
+      "category": 1,
+      "image": "products/mens_sneakers.jpg",
+      "size": "M",
+      "color": "Blue",
+      "stock": 22,
+      "popularity": 19,
+      "created_at": "2024-04-11T09:50:00Z",
+      "updated_at": "2024-04-11T09:50:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 11,
+    "fields": {
+      "name": "Women's Hat",
+      "description": "Fashionable summer hat.",
+      "price": "15.99",
+      "category": 2,
+      "image": "products/womens_hat.jpg",
+      "size": "M",
+      "color": "Red",
+      "stock": 40,
+      "popularity": 9,
+      "created_at": "2024-04-10T15:30:00Z",
+      "updated_at": "2024-04-10T15:30:00Z"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 12,
+    "fields": {
+      "name": "Kids' Cap",
+      "description": "Cute cap for kids.",
+      "price": "7.99",
+      "category": 3,
+      "image": "products/kids_cap.jpg",
+      "size": "S",
+      "color": "Blue",
+      "stock": 65,
+      "popularity": 17,
+      "created_at": "2024-04-09T14:15:00Z",
+      "updated_at": "2024-04-09T14:15:00Z"
+    }
+  }
+]

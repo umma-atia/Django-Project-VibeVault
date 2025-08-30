@@ -1,0 +1,4 @@
+__pycache__/
+db.sqlite3
+.vibe_env
+.env
