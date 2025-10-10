@@ -88,7 +88,7 @@ WSGI_APPLICATION = 'vibe_vault.wsgi.app'
 
 
 CORS_ALLOWED_ORIGINS = [
-    'https://vibe-vault-frontend-tnd3.vercel.app',
+    'https://vibe-vault-frontend.vercel.app',
 ]
 
 
