@@ -88,6 +88,7 @@ WSGI_APPLICATION = 'vibe_vault.wsgi.app'
 
 
 CORS_ALLOWED_ORIGINS = [
+    'http://localhost:5173'
     'https://vibe-vault-frontend.vercel.app',
 ]
 
